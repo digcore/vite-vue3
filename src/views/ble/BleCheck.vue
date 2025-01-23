@@ -11,6 +11,12 @@ const {
 } = useBluetooth({
   acceptAllDevices: true,
 })
+
+console.log('isConnected:', isConnected)
+console.log('isSupported:', isSupported)
+console.log('device:', device)
+console.log('error:', error)
+
 </script>
 
 <template>
