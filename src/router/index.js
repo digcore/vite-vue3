@@ -28,11 +28,11 @@ const router = createRouter({
       name: 'ble',
       component: BleView
     },
-    // {
-    //   path: '/main',
-    //   name: 'main',
-    //   component: () => import('../views/main/MainView.vue')
-    // },
+    {
+      path: '/ble-check',
+      name: 'ble-check',
+      component: () => import('../views/ble/BleCheck.vue')
+    },
   ]
 })
 
